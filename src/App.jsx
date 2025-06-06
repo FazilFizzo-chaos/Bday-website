@@ -11,9 +11,8 @@ function App() {
       <HeroSection />
       <BirthdayGreeting />
       <WishUponAStar />
-      <ComicStrip />
       <MessageBoard />
-      {/* <LoveReasonsCarousel /> */} 
+      <ComicStrip /> 
       <Footer />
     </main>
   );
