@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { SparklesIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 
-const birthdayQuotes = [
-  "May your year be filled with laughter, adventure, and love. 🎂",
-  "You're a gift to everyone who knows you. Happy Birthday! 🎁",
-  "Keep shining like the star you are! 🌟",
-  "Here's to more love, more cake, and more memories together. 🍰",
-  "Your smile brightens even the darkest skies. 💖"
+const birthdayWishes = [
+  "Next birthday, you are getting a date I promise not just sweet words. Hanging out together. ",
+  "You are awarded with lots of love and cake from Fizo 💖🎁🎂",
+  "No suprises here!!! Haha 😂, Try other stars maybe",
+  "I'll always try to make you happy. If it is in my capability, I will always make you smile. 💖",
+  "This website nmeweka makopa mengi, Umeninywesha za kutosha mpaka na mimi natumia  😂, Bear with me haha "
 ];
 
 const WishUponAStar = () => {
@@ -29,7 +29,7 @@ const WishUponAStar = () => {
       </p>
 
       <div className="flex flex-wrap justify-center gap-5 max-w-xs sm:max-w-md">
-        {birthdayQuotes.map((quote, idx) => (
+        {birthdayWishes.map((quote, idx) => (
           <motion.button
             key={idx}
             onClick={() => setSelectedWish(quote)}

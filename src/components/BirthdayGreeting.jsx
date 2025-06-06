@@ -22,7 +22,7 @@ const BirthdayGreeting = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <source src="/audio/happy-birthday-message.mp3" type="audio/mpeg" />
+        <source src="/audio/Furaha.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </motion.audio>
     </div>

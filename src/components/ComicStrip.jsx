@@ -4,27 +4,27 @@ import { motion } from "framer-motion";
 const comicPanels = [
   {
     id: 1,
-    srcJpeg: "/images/image1.jpg",
+    srcJpeg: "/images/image5.jpg",
     alt: "Comic panel 1 - Our first meeting",
-    caption: "When we first met and clicked instantly 💬",
+    caption: "Birthday girl mpaka sa hv ananidai hii...Tena hii nnatakiwa ninunue isije akanunua wa kwanza itakuwa too much loss man for me especially hii. What are you doing Fizo, Buy for her. And she will suprise you, man",
   },
   {
     id: 2,
-    srcJpeg: "/images/image2.jpg",
+    srcJpeg: "/images/image6.jpg",
     alt: "Comic panel 2 - Laughing together",
-    caption: "Laughing till our cheeks hurt 😄",
+    caption: "Usifikirie nimesahau..... 😄😂",
   },
   {
     id: 3,
     srcJpeg: "/images/image3.jpg",
     alt: "Comic panel 3 - Heartfelt moments",
-    caption: "Sharing secrets and dreams 💖",
+    caption: "She sent me this pic...Hey, i fell in love with the food right there, I was drooling. It will good if we eat together this 💖.",
   },
   {
     id: 4,
     srcJpeg: "/images/image4.jpg",
-    alt: "Comic panel 4 - Goofy moments",
-    caption: "You being your goofy self 😂",
+    alt: "Memories....",
+    caption: "Other memories coming soon... Here's to more memories together 😂",
   },
 ];
 

@@ -27,7 +27,7 @@ const HeroSection = () => {
         transition={{ delay: 1.5, duration: 1 }}
         className="mt-10"
       >
-        <ConfettiExplosion force={0.8} duration={5000} particleCount={250} width={1600} />
+        <ConfettiExplosion force={0.8} duration={9000} particleCount={250} width={1600} />
       </motion.div>
     </div>
   );
