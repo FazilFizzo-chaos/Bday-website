@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { SparklesIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const birthdayWishes = [
-  "Next birthday, you are getting a date I promise not just sweet words. Hanging out together.",
+  "Next birthday, you are getting a date 🌹🍽️ I promise — not just sweet words 💬. Hanging out together 👫🎉.",
   "You are awarded with lots of love and cake from Fizo 💖🎁🎂",
   "No surprises here!!! Haha 😂 Try other stars maybe.",
   "I'll always try to make you happy. If it is in my capability, I will always make you smile. 💖",
@@ -25,7 +25,7 @@ const WishUponAStar = () => {
           Wish Upon a Star 🌠
         </motion.h2>
 
-        <p className="text-sm sm:text-base text-yellow-100 mb-6">
+        <p className="text-sm sm:text-base text-yellow-100 mb-6 font-[Poppins]">
           Tap a star to reveal a birthday surprise ✨
         </p>
 
@@ -50,7 +50,7 @@ const WishUponAStar = () => {
             animate={{ opacity: 1, y: 0 }}
             className="mt-6 sm:mt-8 px-4 py-3 sm:px-6 sm:py-4 max-w-xs sm:max-w-md mx-auto text-center text-pink-100 bg-white/10 border border-pink-200/20 rounded-xl shadow-xl backdrop-blur"
           >
-            <p className="text-base sm:text-lg">{selectedWish}</p>
+            <p className="text-xl sm:text-xl font-[Caveat]">{selectedWish}</p>
           </motion.div>
         )}
 
